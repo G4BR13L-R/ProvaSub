@@ -17,7 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 "create table listaAbastecimento(" +
                         "quilometragem float," +
                         "quantidadeAbastecida float," +
-                        "data varchar(10)," +
+                        "data varchar(15)," +
                         "valor float)";
 
         sqLiteDatabase.execSQL(querySQL);
